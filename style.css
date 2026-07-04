@@ -1,0 +1,295 @@
+
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+
+header{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+#header-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+
+}
+
+#header-right{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+
+#header-title{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+#header-subtitle{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 4px;
+    text-align: center;
+    color:#777;
+}
+
+.top-playbutton{
+    padding: 0;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.playstore{
+    margin: 0;
+    padding: 0;
+    height: 120px;
+    width: 300px;
+}
+
+
+#channels{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+#channels-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+
+}
+
+#channels-right{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+
+
+#channels-title{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+#channels-subtitle{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+    color:#777;
+}
+
+#top-playbutton{
+    padding: 0;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.playstore{
+    margin: 0;
+    padding: 0;
+    height: 120px;
+    width: 300px;
+}
+
+
+#message{
+    margin: 0;
+    padding: 0 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}   
+#message-left{
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#message-right{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+
+}
+
+#message-title {
+   font-family: sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+}
+
+#message-subtitle {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    text-align: center;
+    color:#777;
+}
+
+
+
+#future{
+    margin: 0;
+    padding: 0 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}   
+#future-left{
+     display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+#future-right{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap:50px;
+
+}
+
+#future-title {
+   font-family: sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+}
+
+#future-subtitle {
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    text-align: center;
+    color:#777;
+}
+
+footer{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}
+#footer-title{
+    font-size: 46px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+
+   
+}
+#footer-subtitle{
+    font-family: sans-serif;
+    font-size: 38px;
+    font-weight: 200;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    
+}
+
+#footer-subtitle a{
+    color: rgb(10, 156, 214);
+    text-decoration: none;
+}
+
+#bottom-playbutton{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.down-playstore{
+    margin: 0;
+    padding: 0;
+    height: 120px;
+    width: 300px;
+}
