@@ -45,16 +45,19 @@ header{
     font-family: sans-serif;
     font-weight: 600;
     font-size: 38px;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     text-align: center;
 }
 #header-subtitle{
     font-family: sans-serif;
     font-weight: 400;
-    font-size: 32px;
-    letter-spacing: 4px;
+    font-size: 35px;
+    letter-spacing: 0.02em;
+    word-spacing: 5px;
+    line-height: 60px;
     text-align: center;
     color:#777;
+ 
 }
 
 .top-playbutton{
@@ -111,17 +114,19 @@ header{
 
 #channels-title{
     font-family: sans-serif;
-    font-weight: 600;
+    font-weight: 550;
     font-size: 50px;
-    letter-spacing: 4px;
+    letter-spacing: 9px;
     text-align: center;
 }
 #channels-subtitle{
     font-family: sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-    letter-spacing: 4px;
+    font-weight: 200;
+    font-size:  48px;
+    letter-spacing:  0.01em;
+    word-spacing: 2px;
     text-align: center;
+    line-height: 60px;
     color:#777;
 }
 
@@ -180,14 +185,19 @@ header{
    font-family: sans-serif;
     font-weight: 600;
     font-size: 50px;
+    word-spacing: 9px;
+    letter-spacing: 9px;
     text-align: center;
 }
 
 #message-subtitle {
     font-family: sans-serif;
     font-weight: 200;
-    font-size: 40px;
+    font-size: 48px;
     text-align: center;
+     letter-spacing:  0.01em;
+    word-spacing: 2px;
+    line-height: 60px;
     color:#777;
 }
 
@@ -230,14 +240,18 @@ header{
    font-family: sans-serif;
     font-weight: 600;
     font-size: 50px;
+    letter-spacing: 9px;
     text-align: center;
 }
 
 #future-subtitle {
     font-family: sans-serif;
     font-weight: 200;
-    font-size: 40px;
+    font-size: 48px;
     text-align: center;
+    letter-spacing:  0.01em;
+    word-spacing: 2px;
+    line-height: 60px;
     color:#777;
 }
 
